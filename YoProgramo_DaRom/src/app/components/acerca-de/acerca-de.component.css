@@ -1,0 +1,35 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color:cornflowerblue ;
+    text-align: center;
+}
+
+@media(max-width: 575px) {
+    #foto{
+        position: absolute;
+        width: 33%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px gray;
+        left: 33%;
+        top: 530px;
+    }    
+}
+
+@media(min-width: 576px) {
+    #foto{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px gray;
+        left: 2%;
+        top: 500px;
+    }    
+}
+
+
+#nombre{
+    font-weight: bold;
+    padding-top: 80px;
+}
