@@ -1,7 +1,25 @@
-div{
-    background-color: #a1b5cb;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #a1b5cb;*/
+    background-color: #63aaf7;
 }
-app-sociales{
-    float: right;
-    margin-top: 20px;
+
+#logoAP{ width: 200px; margin: 5px;}
+
+#facebook, #github , #twitter , #linkedin , #instagram{
+    width: 50px;  margin-right: 5px;
+}
+
+#btnLogin{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+@media (max-width:575px){
+    #facebook, #github , #twitter , #linkedin , #instagram{
+        width: 30px;  margin-right: 3px;
+    }
+    
 }
