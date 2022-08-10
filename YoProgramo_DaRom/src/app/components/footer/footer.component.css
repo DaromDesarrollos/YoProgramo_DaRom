@@ -1,0 +1,14 @@
+.row{
+    background-color: bisque;
+}
+
+footer{
+    padding-top: 10px;
+    font-size: 1.5 em;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
