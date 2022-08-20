@@ -11,9 +11,8 @@ import { LoginUsuario } from '../model/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-
-  //authURL = 'https://heroku-backendmgb.herokuapp.com/auth/';
-  authURL = 'http://localhost:8080/auth/';
+  authURL = 'https://argentinaprogramabkn.herokuapp.com/auth/';
+  //authURL = 'http://localhost:8080/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
