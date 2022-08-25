@@ -3,9 +3,12 @@
 }
 
 div{
-    background-color: #a1b5cb;
+    /*background-color: #a1b5cb;*/
 }
 
 h1, h3{
     display: inline;
+}
+table{
+    padding: auto;
 }

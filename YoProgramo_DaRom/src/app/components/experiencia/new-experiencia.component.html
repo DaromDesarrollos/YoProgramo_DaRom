@@ -1,8 +1,7 @@
-<p>new-experiencia works! ghfhkjfhjf</p>
 <div class="container">
     <div class="row">
-        <div>
-           
+        <div class="col-2">&nbsp;</div>
+        <div class="col-6">          
             <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
                 <div class="form-group">
                     <label for="nombreE">Nombre de la empresa</label>
@@ -12,6 +11,7 @@
                     <label for="descripcionE">Descripcion de la tarea</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="descripcionE" required>
                 </div>
+                <div>&nbsp;</div>
                 <button class="btn btn-primary">
                     Agregar experiencia
                 </button>
